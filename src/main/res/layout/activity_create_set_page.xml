@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateSetPage">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarCreateSet"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollViewCreateSet"
+        android:layout_width="752dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbarCreateSet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/songsCreateSet">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutCreateSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/songsCreateSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/song_listings"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollViewCreateSet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/menuButtonViewSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/menu"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarCreateSet"
+        app:layout_constraintStart_toStartOf="@+id/toolbarCreateSet"
+        app:layout_constraintTop_toTopOf="@+id/toolbarCreateSet" />
+
+    <Button
+        android:id="@+id/searchBarCreateSet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/create_set"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarCreateSet"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarCreateSet"
+        app:layout_constraintStart_toEndOf="@+id/sortCreateSet"
+        app:layout_constraintTop_toTopOf="@+id/toolbarCreateSet" />
+
+    <SearchView
+        android:id="@+id/songSearchView"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/menuButtonViewSet"
+        app:layout_constraintStart_toEndOf="@+id/menuButtonViewSet"
+        app:layout_constraintTop_toTopOf="@+id/menuButtonViewSet" />
+
+    <Button
+        android:id="@+id/sortCreateSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sort_categories"
+        app:layout_constraintBottom_toBottomOf="@+id/songSearchView"
+        app:layout_constraintStart_toEndOf="@+id/songSearchView"
+        app:layout_constraintTop_toTopOf="@+id/songSearchView"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

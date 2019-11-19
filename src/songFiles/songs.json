@@ -1,0 +1,68 @@
+{
+  "songs": [
+    {
+      "songId": 0,
+      "songTitle": "Cant Help Falling In Love",
+      "songComposer": "Elvis Presley",
+      "songEra": "1970",
+      "songInstrument": "Guitar",
+      "songGenre": "Blues"
+    },
+    {
+      "songId": 1,
+      "songTitle": "Dancing Queen",
+      "songComposer": "ABBA",
+      "songEra": "1970",
+      "songInstrument": "Guitar",
+      "songGenre": "Pop"
+    },
+    {
+      "songId": 2,
+      "songTitle": "You are the Sunshine of my Life",
+      "songComposer": "Stevie Wonder",
+      "songEra": "1970",
+      "songInstrument": "Piano",
+      "songGenre": "Blues"
+    },
+    {
+      "songId": 3,
+      "songTitle": "Waterloo",
+      "songComposer": "ABBA",
+      "songEra": "1980",
+      "songInstrument": "Piano",
+      "songGenre": "Pop"
+    },
+    {
+      "songId": 4,
+      "songTitle": "Take On Me",
+      "songComposer": "A HA",
+      "songEra": "1980",
+      "songInstrument": "Guitar",
+      "songGenre": "Pop"
+    },
+    {
+      "songId": 5,
+      "songTitle": "Rocket man",
+      "songComposer": "Elton John",
+      "songEra": "1970",
+      "songInstrument": "Piano",
+      "songGenre": "Pop Rock"
+    },
+    {
+      "songId": 6,
+      "songTitle": "Piano Man",
+      "songComposer": "Billy Joel",
+      "songEra": "1970",
+      "songInstrument": "Piano",
+      "songGenre": "Pop Rock"
+    },
+    {
+      "songId": 7,
+      "songTitle": "Drops of Jupiter",
+      "songComposer": "Train",
+      "songEra": "2000",
+      "songInstrument": "Piano",
+      "songGenre": "Alt Rock"
+    }
+  ]
+}

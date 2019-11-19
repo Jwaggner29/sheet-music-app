@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/infoName"
+        android:title="Title" />
+
+    <item
+        android:id="@+id/infoInstrument"
+        android:title="Instrument" />
+
+    <item
+        android:id="@+id/infoGenre"
+        android:title="Genre" />
+
+    <item
+        android:id="@+id/infoDecade"
+        android:title="Decade" />
+
+    <item
+        android:id="@+id/infoComposer"
+        android:title="Composer" />
+
+</menu>

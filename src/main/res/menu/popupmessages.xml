@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/turn_down"
+        android:title = "Turn Down"/>
+
+    <item
+        android:id="@+id/turn_up"
+        android:title = "Turn UP"/>
+
+    <item
+        android:id="@+id/band_break"
+        android:title = "Band Break"/>
+
+    <item
+        android:id="@+id/song_change"
+        android:title = "Song Change"/>
+
+</menu>

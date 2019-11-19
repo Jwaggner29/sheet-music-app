@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongInfo">
+
+    <TextView
+        android:id="@+id/songComposerSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/composer"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/composerSongInfo"
+        app:layout_constraintStart_toEndOf="@+id/composerSongInfo"
+        app:layout_constraintTop_toTopOf="@+id/composerSongInfo" />
+
+    <TextView
+        android:id="@+id/composerSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/composer"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decadeSongInfo" />
+
+    <TextView
+        android:id="@+id/songDecadeSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/decade"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/decadeSongInfo"
+        app:layout_constraintStart_toEndOf="@+id/decadeSongInfo"
+        app:layout_constraintTop_toTopOf="@+id/decadeSongInfo" />
+
+    <TextView
+        android:id="@+id/decadeSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/decade"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genreSongInfo" />
+
+    <TextView
+        android:id="@+id/songGenreSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/genre"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/genreSongInfo"
+        app:layout_constraintStart_toEndOf="@+id/genreSongInfo"
+        app:layout_constraintTop_toTopOf="@+id/genreSongInfo" />
+
+    <TextView
+        android:id="@+id/genreSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/genre"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instrumentSongInfo" />
+
+    <TextView
+        android:id="@+id/songInstrumentSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/instrument"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/instrumentSongInfo"
+        app:layout_constraintStart_toEndOf="@+id/instrumentSongInfo"
+        app:layout_constraintTop_toTopOf="@+id/instrumentSongInfo" />
+
+    <TextView
+        android:id="@+id/instrumentSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/instrument"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleSongInfo" />
+
+    <TextView
+        android:id="@+id/titleSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/song_title"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/songTitleSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/song_title"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/titleSongInfo"
+        app:layout_constraintStart_toEndOf="@+id/titleSongInfo"
+        app:layout_constraintTop_toTopOf="@+id/titleSongInfo" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSongInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/menuButtonSongInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/menu"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarSongInfo"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarSongInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbarSongInfo" />
+
+</android.support.constraint.ConstraintLayout>

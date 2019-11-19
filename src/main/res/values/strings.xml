@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">SheetMusicApp</string>
+    //start page
+    <string name="gigmaster">GIGMASTER</string>
+    <string name="start_set">Start Set</string>
+    <string name="create_song">Create Song</string>
+    <string name="create_set">Create Set</string>
+    <string name="add_to_band">Add to Band</string>
+    <string name="join_band">Join Band</string>
+    <string name="view_set">View Set</string>
+    //start set
+    <string name="info">Info</string>
+    <string name="menu">Menu</string>
+    <string name="prev">Prev</string>
+    <string name="message">Message</string>
+    <string name="next">Next</string>
+    <string name="prev_page">Prev Page</string>
+    <string name="next_page">Next Page</string>
+    <string name="current_song_here">Current Song Here</string>
+    <string name="last_message_will_go_here">Last Message Will Go Here</string>
+    //create and add set
+    <string name="song_listings">Song Listings</string>
+    <string name="sort_categories">Sort Categories</string>
+    //song information
+    <string name="song_title">Song Title</string>
+    <string name="instrument">Instrument</string>
+    <string name="genre">Genre</string>
+    <string name="decade">Decade</string>
+    <string name="composer">Composer</string>
+    <string name="available_band_members">Available Band Members</string>
+    <string name="available_bands">Available Bands</string>
+    <string name="connect">Connect</string>
+    <string name="choose_a_file_to_create_a_song">Choose a File to Create a Song</string>
+    <string name="enter_the_data_fields">Enter the data fields</string>
+    <string name="current_set">Current Set</string>
+    <string name="choose_file">Choose File</string>
+    <string name="refresh">refresh</string>
+    <string name="string_refresh" />
+    <string name="download">Download</string>
+    <string name="view_band">View band</string>
+    <string name="share_set">share set</string>
+    <string name="band_members">Band members</string>
+</resources>
